@@ -1,0 +1,47 @@
+* {
+	font-family: "arial", sans-serif;
+	font-size: 15px;
+}
+
+#external_p {
+	color: yellow;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+#title {
+	text-transform: uppercase;
+}
+
+.titles {
+	font-weight: bold;
+}
+
+.firstList {
+	background-color: lightgreen;
+}
+
+.secondList {
+	border: 1px solid blue;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	border-radius: 150px;
+	border: 5px solid hotpink;
+}
+
+img + ul {
+	list-style: none;
+}
+
+ul ~ p {
+	text-align: center;
+}
+
+ul > li {
+	letter-spacing: 10px;
+}
